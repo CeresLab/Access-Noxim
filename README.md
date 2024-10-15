@@ -1,3 +1,4 @@
+# command 
 #./noxim -dimx 8 -dimy 8 -dimz 4 -traffic random -pir 0.025 possion -routing xyz -sim 100000 -warmup 10000 -seed 0 -clean 5000 -#throt vertical -buffer 8 -size 8 8 -tquota 1 -predict 0 -tsh 98.0 -tla 1 -sen_alloc table ./doc/random_placement.txt -#temp_recover regression ./doc/random_linear_coef.txt ./doc/random_linear_coef1.txt ./doc/random_linear_ref.txt
 
 ./noxim -dimx 8 -dimy 8 -dimz 4 -traffic bitreversal -pir 0.025 possion -routing xyz -sim 10000000 -warmup 10000 -seed 0 -throt vertical -buffer 8 -size 8 8 -tquota 0
